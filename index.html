@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Galerija</title>
+    <style>
+
+   body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size:xx-large;
+    margin-bottom: 40px;
+}
+
+#main-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#wrapper > div {
+    margin-bottom: 50px;
+}
+
+.photo {
+    min-height: 150px;
+    background-image: url(placeholder-image.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#4682b4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-title p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: whitesmoke;
+    line-height: 40px;
+    font-size: small;
+}
+
+p {
+    text-align:center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 319px) {
+
+    h1 {
+        font-size: 22px;
+    }
+    .image-title p {
+        font-size: 18px;
+    }
+    #lorem {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    h1 {
+        font-size: 35px;
+    }
+    .image-title p {
+        font-size: 28px;
+    }
+    #lorem {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        text-align: start;
+        margin-left: 0;
+    }
+    #main-wrapper {
+        width: 90%;
+    }
+
+    #wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #wrapper > div {
+        width: 30%;
+    }
+    
+    .image-title p {
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    #main-wrapper {
+        width: 78%;
+    }
+    #wrapper > div {
+        width: 17%;
+    }
+}
+
+</style>
+</head>
+<body>
+    <div id="main-wrapper">
+        <h1>Gallery Heading</h1>
+        <div id="wrapper">
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+
+        <div>
+        <div class="photo"></div>
+        <div class="image-title">
+            <p>Image title</p>
+        </div>
+        </div>
+ <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Cras a lacinia nisi, nec tristique sem. Cras id tellus acmauris posuere varius. Pellentesque vel mi justo. Aenean malesuada purus eu lacinia finibus. Praesentcommodo euismod odio, eu pharetra nulla dignissim nec. Ut id nulla augue. Duis ultricies euismod purus, ut lobortis tortor semper a. Nam eleifend accumsan elit, in elementum lacus. Nunc varius imperdiet nisi, eget pretium augue molestie a. Nullam ut malesuada enim. Integer non velit fringilla, porta ex vitae, porttitor velit. Utlactus lacinia libero a scelerisque. Ut ullamcorper arcu at mauris ullamcorper tempor.
+ </p>
+    
+</body>
+</html>
